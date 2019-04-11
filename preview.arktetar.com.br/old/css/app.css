@@ -1,0 +1,126 @@
+::-webkit-scrollbar-track { background-color: #F4F4F4; }
+::-webkit-scrollbar { width: 6px; background: #F4F4F4; }
+::-webkit-scrollbar-thumb { background: #b2430c; }
+
+.active { 
+	border:2px solid white!important;
+	border-radius:2px!important; 
+}
+
+@media screen and (min-width: 992px) {
+	.nav-link { 
+		color:#FFF!important;
+		font-family: 'Sintony', sans-serif;
+		font-weight: 600;
+		letter-spacing: .5px;
+		font-size: 17px;
+		margin-left: 10px;
+		margin-right: 10px;
+		border:2px solid transparent;
+	}
+	.nav-link:hover {
+
+		border:2px solid white;
+		border-radius:2px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.nav-link { 
+		font-family: 'Sintony', sans-serif;
+		font-weight: 600;
+		letter-spacing: .5px;
+		font-size: 15px;
+	}
+}
+
+
+
+@media screen and (min-width: 992px) {
+	.aarktetar1, 
+	.aarktetar2, 
+	.aarktetar3, 
+	.aarktetar4, 
+	.aarktetar5, 
+	.aarktetar6 { 
+	    background-repeat: no-repeat;
+	    background-position: center;
+		height: 380px;
+		width: 100%;
+		background-size: cover;
+	}
+}
+@media screen and (max-width: 991px) {
+	.aarktetar1, 
+	.aarktetar2, 
+	.aarktetar3, 
+	.aarktetar4, 
+	.aarktetar5, 
+	.aarktetar6 { 
+	    background-repeat: no-repeat;
+	    background-position: center;
+		width: 100%;
+		height: 380px;
+		background-size: cover;
+		margin-bottom: 30px;
+	}
+}
+
+.aarktetar1 { background-image: url('../images/aarktetar1.jpg'); }
+.aarktetar2 { background-image: url('../images/aarktetar2.jpg'); }
+.aarktetar3 { background-image: url('../images/aarktetar3.jpg'); }
+.aarktetar4 { background-image: url('../images/aarktetar4.jpg'); }
+.aarktetar5 { background-image: url('../images/aarktetar5.jpg'); }
+.aarktetar6 { background-image: url('../images/aarktetar6.jpg'); }
+
+@media (max-width: 990px) {
+	.bg-37anos { 
+		background-image: url('../images/37anos.png');  
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		height: 655px;
+	}
+	.bg-fale { 
+		background-image: url('../images/fale.png');  
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		height: 540px;
+	}
+
+}
+@media (min-width: 992px) {
+	.bg-37anos { 
+		background-image: url('../images/37anos.png');  
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100% 85%;
+		height: 700px;
+	}
+	.bg-fale { 
+		background-image: url('../images/fale.png');  
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100% 85%;
+		height: 600px;
+	}
+}
+
+.logo-mobile { width: 205px; height: 95px; clip-path: polygon(0 0, 100% 0%, 0% 100%, 0% 100%); }
+
+
+
+/* img-gallery */
+.img-gallery {
+	object-fit: cover;
+	max-width: 100%;
+    height: auto;
+   	width: 100%;
+}
+
+@media (min-width: 769px) {
+	.img-gallery { 
+		border:5px solid #FFF; 
+		border-radius: 7px;
+	}
+}

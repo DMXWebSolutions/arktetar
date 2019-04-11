@@ -1,0 +1,147 @@
+/* FONTS */
+.font-raleway{font-family:'Raleway',sans-serif;}
+.font-nunito{font-family: 'Nunito', sans-serif;}
+.font-sintony{font-family: 'Sintony', sans-serif;}
+.font-anton{font-family: 'Anton', sans-serif;}
+
+
+/* WEIGHT */
+.weight-100{font-weight:100;}
+.weight-200{font-weight:200;}
+.weight-300{font-weight:300;}
+.weight-400{font-weight:400;}
+.weight-500{font-weight:500;}
+.weight-600{font-weight:600;}
+.weight-700{font-weight:700;}
+.weight-800{font-weight:800;}
+
+
+/* FONT SIZE */
+.fs-10{font-size:10px;}
+.fs-11{font-size:11px;}
+.fs-12{font-size:12px;}
+.fs-13{font-size:13px;}
+.fs-14{font-size:14px;}
+.fs-15{font-size:15px;}
+.fs-16{font-size:16px;}
+.fs-17{font-size:17px;}
+.fs-18{font-size:18px;}
+.fs-19{font-size:19px;}
+.fs-20{font-size:20px;}
+.fs-21{font-size:21px;}
+.fs-22{font-size:22px;}
+.fs-23{font-size:23px;}
+.fs-24{font-size:24px;}
+.fs-25{font-size:25px;}
+.fs-30{font-size:30px;}
+.fs-35{font-size:35px;}
+.fs-50{font-size:50px;}
+.fs-60{font-size:60px;}
+
+/* PADDING */
+.pb-05 { padding-bottom: .1em; }
+.p-3-5 {padding:1.35rem!important;}
+.pt-2-5 { padding-top: .75rem; }
+.pt-4-5 { padding-top: 2.255rem!important; }
+@media (min-width: 991px) {
+	.px-md-10 { padding-left: 8rem!important; padding-right: 8rem!important; }
+}
+
+/* MARGIN */
+@media screen and (min-width: 992px) { .mt--lg-60px { margin-top: -60px; } }
+.mt-6 { margin-top: 4rem!important; }
+@media screen and (min-width: 769px) { 
+	.mt-md-7 { margin-top: 5rem!important;  } 
+	.mt--50px { margin-top: -50px; }
+}
+
+/* BACKGROUND */
+.bg-eee { background: #eee; }
+.bg-dark-opacity { background: rgba(52, 58, 64, .8); }
+.bg-black { background:#222!important; }
+.bg-light-opacity-2 { background: rgba(255, 255, 255, .25); }
+.bg-light-opacity { background: rgba(255, 255, 255, .8); }
+@media screen and (max-width: 991px) {
+	.bg-xs-light-opacity { background: rgba(255, 255, 255, .8); }
+}
+
+/* POSITION */
+@media screen and (max-width: 768px) { .right-xs-0 { right:0; } }
+.p-absolute { position: absolute; }
+@media screen and (max-width: 768px) { .fixed-xs-top { position: fixed; right:0; width: 100%; } }
+
+/* OUTLINE */
+.outline-0 { outline: 0px!important; }
+
+/* WIDTH HEIGHT */
+@media screen and (max-width: 768px) { 
+	.w-xs-100 { width: 100%; } 
+}
+@media (min-width: 769px) { 
+	.w-md-40 { width: 40%; }
+	.w-md-50 { width: 50%; }
+	.w-md-60 { width: 60%; }
+	.w-md-75 { width: 75%; }
+	.w-md-85 { width: 85%; }
+}
+
+.w-40 { width: 40%; }
+.w-60 { width: 60%; }
+.w-85px { width: 85px; }
+.w-50px { width: 50px; }
+.w-45px { width: 45px; }
+.w-185px { width: 185px; }
+.w-170px { width: 170px; }
+.w-150px { width: 150px; }
+.w-200px { width: 200px; }
+.h-45px { height: 45px; }
+.h-50px { height: 50px; }
+.h-85px { height: 85px; }
+.h-55px { height: 55px; }
+.w-55px { width: 55px; }
+.h-min-125 { min-height: 125px; }
+.h-600 { height: 600px; }
+.h-300 { height: 300px; }
+
+@media (min-width: 769px) {
+	.h-md-250 { height: 250px; }
+	.h-md-300 { height: 300px; }
+	.h-md-325 { height: 325px; }
+	.h-md-350 { height: 350px; }
+	.h-md-400 { height: 400px; }
+	.h-md-450 { height: 450px; }
+	.h-md-475 { height: 475px; }
+	.h-md-500 { height: 500px; }	
+	.h-md-600 { height: 600px; }
+	.h-md-650 { height: 650px; }
+	.h-md-700 { height: 700px; }
+}
+
+/* LETTER SPACING */
+.ls-1 { letter-spacing: 1px; }
+
+/* ROUNDED */
+.rounded-2 { border-radius: 2px!important; }
+.hover-d-none:hover { text-decoration: none; }
+.border-2px-dark { border:2px solid rgba(0,0,0,.6); }
+
+/* COLOR */
+.text-nigga { color: #000; }
+@media screen and (min-width: 769px) { .text-md-dark { color:#000!important; } }
+@media screen and (max-width: 768px) { .text-xs-light { color:#FFF!important; } }
+@media (min-width: 768px) { .offset-md-3-5 { margin-left: 30%; } }
+
+/* Z-INDEX */
+.z-index-front { z-index: 9999999999999999999999999999; }
+
+/* SHADOW */
+.shadow-25 { box-shadow: 0 .5rem .5rem rgba(0,0,0,.4)!important; }
+.square-150 { width: 150px; height: 150px; }
+
+/* OBJECT FIT */
+.object-fit-cover { object-fit: cover; }
+.object-fit-none { object-fit: none; }
+
+@media (max-width: 768px) {
+	.text-xs-center { display: flex; justify-content: center; }
+}
